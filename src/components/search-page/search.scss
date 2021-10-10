@@ -1,0 +1,89 @@
+.search-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	.search-keys-container {
+		position: fixed;
+		top: 0;
+		height: 100px;
+		width: 100%;
+		display: flex;
+		background-color: white;
+		z-index: 10000;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.text-field {
+		margin-right: 8px;
+		flex-grow: 1;
+		max-width: 200px;
+	}
+
+	.search-button {
+		margin-left: 10px;
+	}
+	.back-button {
+		margin-left: 10px;
+		margin-right: 8px;
+	}
+
+	.image-results-container {
+		display: grid;
+		grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+		justify-items: center;
+		grid-gap: 10px;
+		margin: 15px;
+		margin-top: 100px;
+		width: 100%;
+		padding: 10px;
+
+		.image-container {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			position: relative;
+			width: 150px;
+			height: 99px;
+
+			.image-text-container {
+				position: absolute;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				opacity: 0;
+				transition: opacity 0.45s ease;
+				height: 100%;
+				width: 100%;
+			}
+			.image-text-container:hover {
+				opacity: 1;
+				background: rgba(250, 244, 244, 0.8);
+			}
+		}
+	}
+	.next-button-container {
+		display: flex;
+	}
+	.next-button {
+		margin: auto;
+		margin-bottom: 15px;
+		margin-top: 15px;
+	}
+}
+
+#addOrRemoveButton {
+background-color: rgb(5, 127, 131);
+}
+
+.nav-buttons-container {
+	width: 100%;
+	display: flex;
+	padding: 20px;
+	justify-content: center;
+	& > * {
+		width: 140px;
+	}
+}

@@ -1,0 +1,49 @@
+.home-container {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+	justify-items: center;
+	grid-row-gap: 10px;
+	margin: 15px;
+
+	.search-link {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 150px;
+		height: 99px;
+		border-style: dashed;
+		border-color: black;
+		font-family: system-ui;
+		font-size: 22px;
+	}
+
+	.search-link:hover {
+		cursor: pointer;
+	}
+
+	.image-container {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		position: relative;
+		width: 150px;
+		height: 99px;
+
+		.image-text-container {
+			position: absolute;
+			text-align: center;
+			opacity: 0;
+			transition: opacity 0.45s ease;
+			height: 100%;
+			width: 100%;
+
+			.image-info {
+				margin: 2px;
+			}
+		}
+		.image-text-container:hover {
+			opacity: 1;
+			background: rgba(250, 244, 244, 0.8);
+		}
+	}
+}
