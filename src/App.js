@@ -23,7 +23,7 @@ function App() {
 		<div className="App">
 			<BrowserRouter basename={process.env.PUBLIC_URL}>
 				<Switch>
-					<Route exact path="/">
+					<Route exact path="/{image-finder-project}">
 						<Home favoriteList={favoriteImages} handleAddToFavs={handleAddToFavs} />
 					</Route>
 					<Route exact path="/search">
