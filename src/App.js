@@ -21,9 +21,9 @@ function App() {
 
 	return (
 		<div className="App">
-			<BrowserRouter basename={process.env.PUBLIC_URL}>
+			<BrowserRouter >
 				<Switch>
-					<Route exact path="/image-finder-project/#/">
+					<Route exact path="/">
 						<Home favoriteList={favoriteImages} handleAddToFavs={handleAddToFavs} />
 					</Route>
 					<Route exact path="/search">
