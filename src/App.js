@@ -1,7 +1,7 @@
 import './App.scss';
 import Home from './components/home-page/home';
 import Search from './components/search-page/Search';
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import { BrowserRouter, HashRouter, Route, Switch } from 'react-router-dom';
 import { useState } from 'react';
 import { getStoragedFavorites, saveFavoritesToStorage } from './utils';
 
@@ -21,7 +21,7 @@ function App() {
 
 	return (
 		<div className="App">
-			<BrowserRouter >
+			<HashRouter basename="/">
 				<Switch>
 					<Route exact path="/">
 						<Home favoriteList={favoriteImages} handleAddToFavs={handleAddToFavs} />
@@ -30,7 +30,7 @@ function App() {
 						<Search favoriteList={favoriteImages} handleAddToFavs={handleAddToFavs} />
 					</Route>
 				</Switch>
-			</BrowserRouter>
+			</HashRouter>
 		</div>
 	);
 }
