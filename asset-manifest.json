@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/image-finder-project/static/css/main.1688aca2.chunk.css",
+    "main.js": "/image-finder-project/static/js/main.0b5de46d.chunk.js",
+    "main.js.map": "/image-finder-project/static/js/main.0b5de46d.chunk.js.map",
+    "runtime-main.js": "/image-finder-project/static/js/runtime-main.ab377350.js",
+    "runtime-main.js.map": "/image-finder-project/static/js/runtime-main.ab377350.js.map",
+    "static/js/2.575aecc4.chunk.js": "/image-finder-project/static/js/2.575aecc4.chunk.js",
+    "static/js/2.575aecc4.chunk.js.map": "/image-finder-project/static/js/2.575aecc4.chunk.js.map",
+    "static/js/3.e01da449.chunk.js": "/image-finder-project/static/js/3.e01da449.chunk.js",
+    "static/js/3.e01da449.chunk.js.map": "/image-finder-project/static/js/3.e01da449.chunk.js.map",
+    "index.html": "/image-finder-project/index.html",
+    "static/css/main.1688aca2.chunk.css.map": "/image-finder-project/static/css/main.1688aca2.chunk.css.map",
+    "static/js/2.575aecc4.chunk.js.LICENSE.txt": "/image-finder-project/static/js/2.575aecc4.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ab377350.js",
+    "static/js/2.575aecc4.chunk.js",
+    "static/css/main.1688aca2.chunk.css",
+    "static/js/main.0b5de46d.chunk.js"
+  ]
+}
